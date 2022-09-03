@@ -5,7 +5,12 @@
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### 🧠 Languages, Technologies and Tools
+<div>
+  <h2 align>
+    <img src="https://cdn3.emoji.gg/emojis/4275_pepe_5head.png" width="30" height="30" alt="pepe-big-brain">
+    Languages, Technologies and Tools
+  </h2>
+</div>
 
 <!-- lang -->
 ![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)
@@ -21,7 +26,13 @@
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-### 🤔 Interesting
+<div>
+  <h2 align>
+    <img src="https://cdn.discordapp.com/emojis/880136215700050001.webp?size=22&quality=lossless">
+    Interesting
+  </h2>
+</div>
+
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
 ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)

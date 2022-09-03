@@ -1,4 +1,6 @@
-## Hello! My name is Mikhail Popov - aka [TakiMoysha](https://github.com/TakiMoysha)
+<div align="center">
+  <h1>Hello! My name is Mikhail Popov - aka <a href="https://github.com/TakiMoysha">TakiMoysha</a></h1>
+</div>
 
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -36,10 +38,6 @@
 </div>
 
 <!--
-**TakiMoysha/TakiMoysha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -48,4 +46,6 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+references: https://github.com/juletopi/juletopi/blob/main/README.md
 -->

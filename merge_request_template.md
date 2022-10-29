@@ -2,12 +2,12 @@
 
 (To check off an item mark `x` inside the brackets)
 
-[] Wrote relevant unit tests
-[] Self-reviewed the code prior to submitting MR
-[] Changes are compatible with Internet Explorer 11, Edge, Safari, Firefox, and Chrome
-[] Meets accessibility standards
-[] Meets internationalization standards (all user-facing text is translated)
-[] Added/updated examples or documentation as needed
+- [] Wrote relevant unit tests
+- [] Self-reviewed the code prior to submitting MR
+- [] Changes are compatible with Internet Explorer 11, Edge, Safari, Firefox, and Chrome
+- [] Meets accessibility standards
+- [] Meets internationalization standards (all user-facing text is translated)
+- [] Added/updated examples or documentation as needed
 
 # Merge Request Description
 

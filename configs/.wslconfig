@@ -1,0 +1,20 @@
+memory=2GB
+
+processor2=2
+
+swap=4GB
+
+# Store
+swapfile=D:\\TEMP\\wsl-swap.vhdx
+
+nestedVirtualization=false
+
+# for changes data:
+# wsl --shutdown
+# wsl --export docker-desktop-data docker-desktop-data.tar
+# wsl --unregister docker-desktop-data
+# wsl --import docker-desktop-data D:\docker-new-repo\ docker-desktop-data.tar --version 2
+
+
+# references:
+# 1. https://stackoverflow.com/questions/40465979/change-docker-native-images-location-on-windows-10-pro

@@ -1,0 +1,3 @@
+* Wadjet: This is a Tauri app built with Vue, Typescript, and a custom border. It's a simple text editor that runs natively on your desktop. You can find the source code on GitHub: https://github.com/HenryQuan/Wadjet.
+* Ladi: This is a Tauri app built with Vue, Typescript, and a custom border. It's a simple task manager that runs natively on your desktop. You can find the source code on GitHub: https://github.com/lauripiispanen/ladi.
+* Solis: This is a Tauri app built with Vue and Typescript. It's a simple file manager that runs natively on your desktop. Although it doesn't have a custom border, it's still a great example of a Tauri app built with Vue and Typescript. You can find the source code on GitHub: https://github.com/daoleno/solis.

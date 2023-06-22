@@ -210,6 +210,16 @@ bindsym $mod+Ctrl+l exec swaylock -i ~/Pictures/Wallpapers/grass.png
 ## Wallpaper
 output * background ~/Pictures/Wallpapers/grass.png fill
 
+# hide window border
+default_border none
+default_floating_border none
+# small window border
+font pango:monospace 1
+titlebar_padding 1
+titlebar_border_thickness 1
+
+# for performance
 include /etc/sway/config.d/*
+
 ## References
 # https://computingforgeeks.com/setup-sway-tiling-window-manager-on-fedora-with-waybar/

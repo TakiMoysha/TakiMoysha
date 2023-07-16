@@ -1,0 +1,1 @@
+LABEL=disk_label /mount/point defaults,uid=user_id,gid=group_id,umask=permissions 0 1

@@ -1,0 +1,90 @@
+general {
+        colors = true
+        interval = 5
+        output_format = i3bar
+        color_good = "#2AA198"
+        color_bad = "#586E75"
+        color_degraded = "#DC322F"
+}
+
+# order += "ipv6"
+order += "cpu_usage"
+order += "cpu_temperature 0"
+# order += "disk /home"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "battery all"
+# order += "load"
+order += "memory"
+order += "time"
+order += "tztime kiev"
+order += "volume master"
+order += "run_watch current_keyboard_layout"
+
+cpu_usage {
+        format = " CPU: %usage "
+}
+cpu_temperature 0 {
+        format = " T: %degrees °C"
+}
+
+load {
+        format = " %1min "
+        # max_threshold = 0.3
+}
+
+wireless _first_ {
+	format_up = " WSL: %ip %quality "
+	format_down = " no wsl "
+}
+
+ethernet _first_ {
+        format_up = " ETH: %ip %speed "
+        format_down = " no lan "
+}
+
+run_watch wireguard {
+        pidfile = ""
+        format = "VPN"
+        format_down = ""
+}
+
+battery all {
+        format = " %status %percentage"
+        format_down = "No battery"
+        last_full_capacity = true
+        integer_battery_capacity = true
+        status_chr = " "
+        status_bat = " "
+        status_unk = "?"
+        status_full = "☻"
+        low_threshold = 15
+        threshold_type = time
+}
+
+memory {
+        format = "%used / %available"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
+
+time {
+        format = " %d.%m.%Y - %H:%M "
+}
+
+tztime kiev {
+	format = " Kiev: %H:%M "
+	timezone = "Europe/Kiev"
+}
+
+volume master {
+    format = "   %volume " 
+    format_muted = " 🔇 %volume "
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+}
+
+run_watch current_keyboard_layout {
+        pidfile = "/var/run/xkblayout-state.pid"
+}

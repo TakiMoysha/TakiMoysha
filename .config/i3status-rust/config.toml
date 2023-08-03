@@ -8,24 +8,24 @@ icons = "awesome4"
 
 [[block]]
 block = "taskwarrior"
-interval = 60
-format = " $icon count.eng(w:1) T"
-format_singular = " $icon 1 T"
-format_everything_done = ":)"
+format = " $icon  $count tasks "
+format_singular = " $icon  $count task "
+format_everything_done = " nothing to do :)"
 warning_threshold = 10
 critical_threshold = 20
-[[block.filters]]
-name = "today"
-filter = "+PENDING +OVERDUE or +DUETODAY"
-[[block.filters]]
-name = "Hummingfab"
-filter = "project:Hummingfab +PENDING"
+interval = 10
+# [[block.filters]]
+# name = "today"
+# filter = "+PENDING +OVERDUE or +DUETODAY"
+# [[block.filters]]
+# name = "Hummingfab"
+# filter = "project:Hummingfab +PENDING"
 
 
-[[block]]
-block = "watson"
-show_time = true
-state_path = "~/.config/watson/state"
+# [[block]]
+# block = "watson"
+# show_time = true
+# state_path = "~/.config/watson/state"
 
 
 [[block]]
@@ -45,7 +45,7 @@ interval = 1
 
 [[block]]
 block = "memory"
-format = " $icon $mem_used.eng(prefix:M)/$mem_total($mem_used_percents.eng(w:2)) "
+format = " $icon $mem_used.eng(prefix:M) /$mem_total($mem_used_percents.eng(w:2)) "
 interval = 10
 warning_mem = 70
 critical_mem = 90
@@ -66,17 +66,21 @@ update = true
 # timezone = "Europe/Kiev"
 
 [[block]]
-block = "docker"
-interval = 5
-format = " $icon $running/$total "
+block = "battery"
+missing_format = "no battery?"
 
 [[block]]
-block = "keyboard_layout"
-format = " $variant "
+block = "docker"
+interval = 5
+format = " $icon $running /$total "
+
+[[block]]
+# block = "keyboard_layout"
+# driver = "localebus"
+# format = " $variant [$layout]"
+block = "custom"
+command = 'xkblayout-state print "%s"'
 interval = 1
-[block.mappings]
-"us" = "US"
-"ru" = "RU"
 
 [[block]]
 block = "sound"
@@ -92,5 +96,4 @@ interval = "once"
 [[block.click]]
 button = "left"
 cmd = "systemctl `echo -e 'poweroff\nreboot' | dmenu`"
-
 

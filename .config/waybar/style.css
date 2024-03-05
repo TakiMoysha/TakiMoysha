@@ -1,134 +1,122 @@
 @import url("./colors.css");
 * {
-  border: none;
-  border-radius: 0;
-  font-family: "Cascadia Code";
-  font-size: 8pt;
-  min-height: 0;
+	border: none;
+	border-radius: 0;
+	font-family: "monospace";
+	font-size: 11px;
+	min-height: 0;
+	margin: 0px;
 }
+
 window#waybar {
-  opacity: 0.9;
-  background: @background-darker;
-  color: @foreground;
-  border-bottom: 2px solid @background;
+	/*background: #000000;*/
+	background: rgba(0, 0, 0, 0.7);
+	color: gray;
+	color: #ffffff;
 }
+
+#window {
+	color: #e4e4e4;
+	font-weight: bold;
+}
+
+#workspaces {
+	padding: 0px;
+	margin: 0px;
+}
+
 #workspaces button {
-  padding: 0 8px;
-  margin-right: 4px;
-  background: @background;
-  color: @foreground;
+	padding: 0 2px;
+	margin: 0px;
+	background: transparent;
+	color: #ff8700;
+	/*
+	color: #00afd7;
+	color: #ffffff;
+	border: 1px solid #00afd7;
+	*/
+	border: 1px solid #1b1d1e;
+	font-weight: bold;
 }
 #workspaces button:hover {
-  box-shadow: inherit;
-  text-shadow: inherit;
-  background-image: linear-gradient(0deg, @selection, @background-darker);
-}
-#workspaces button.active {
-  background-image: linear-gradient(0deg, @purple, @selection);
-}
-#taskbar button.active {
-  background-image: linear-gradient(0deg, @selection, @background-darker);
-}
-#clock {
-  padding: 0 4px;
-  background: @background;
+	box-shadow: inherit;
+	text-shadow: inherit;
 }
 
-/**/
-/* * { */
-/*   font-family: "UbuntuMono Nerd Font"; */
-/*   font-size: 11px; */
-/* } */
-/**/
-/* window#waybar { */
-/*   background-color: #225877; */
-/*   color: #ffffff; */
-/* } */
-/**/
-/* .modules-left { */
-/*   background-color: #323232; */
-/*   padding: 0px 0px 0px 0px; */
-/* } */
-/**/
-/* .modules-right { */
-/*   background-color: #323232; */
-/*   padding: 0px 5px 0px 0px; */
-/* } */
-/**/
-/* #custom-scratch { */
-/*   background-color: #323232; */
-/*   color: #b8b8b8; */
-/*   padding: 0px 9px 0px 9px; */
-/* } */
-/**/
-/* #workspaces { */
-/* } */
-/**/
-/* #workspaces button { */
-/*   padding: 0px 11px 0px 11px; */
-/*   min-width: 1px; */
-/*   color: #888888; */
-/* } */
-/**/
-/* #workspaces button.focused { */
-/*   padding: 0px 11px 0px 11px; */
-/*   background-color: #285577; */
-/*   color: #ffffff; */
-/* } */
-/**/
+#workspaces button.focused {
+	background: #e88939;
+	background: #00afd7;
+	color: #1b1d1e;
+}
+
+#workspaces button.urgent {
+	background: #af005f;
+	color: #1b1d1e;
+}
+
 #mode {
-  background-color: #900000;
-  color: #ffffff;
-  padding: 0px 5px 0px 5px;
-  border: 1px solid #2f343a;
+	background: #af005f;
+	color: #1b1d1e;
 }
-/**/
-/* #window { */
-/*   color: #ffffff; */
-/*   background-color: #285577; */
-/*   padding: 0px 10px 0px 10px; */
-/* } */
-/**/
-/* window#waybar.empty #window { */
-/*   background-color: transparent; */
-/*   color: transparent; */
-/* } */
-/**/
-/* window#waybar.empty { */
-/*   background-color: #323232; */
-/* } */
-/**/
-#network,
-#temperature,
-#backlight,
-#pulseudio,
-#battery {
-  padding: 0px 15px 0px 15px;
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
+	padding: 0 3px;
+	margin: 0 2px;
 }
 
 #clock {
-  margin: 0px 15px 0px 15px;
+}
+
+#battery {
+}
+
+#battery icon {
+    color: red;
+}
+
+#battery.charging {
+}
+
+@keyframes blink {
+    to {
+        background-color: #af005f;
+    }
+}
+
+#battery.warning:not(.charging) {
+	background-color: #ff8700;
+	color: #1b1d1e;
+}
+#battery.critical:not(.charging) {
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background: #f53c3c;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+#custom-spotify {
+    color: rgb(102, 220, 105);
 }
 
 #tray {
-  padding: 0px 8px 0px 5px;
-  margin: 0px 5px 0px 5px;
-}
-
-#battery.critical {
-  color: #ff5555;
-}
-
-/*  ============== NETWORK ============= */
-#network.disconnected {
-  color: #ff5555;
-}
-#network.disabled {
-}
-#network.linked {
-}
-#network.ethernet {
-}
-#network.wifi {
-  color: aqua;
 }

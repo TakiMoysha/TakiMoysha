@@ -1,7 +1,7 @@
 ## Working now:
-* Update [randy](https://github.com/TakiMoysha/randy) - ala conky;
-* Created [market-observer](https://github.com/TakiMoysha/market-observer) - backend as proxy for market;
-* Created [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) - load tests for backends;
+* [randy](https://github.com/TakiMoysha/randy) - ala conky;
+* [market-observer](https://github.com/TakiMoysha/market-observer) - backend as proxy for market;
+* [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) - load tests for backends;
 
 <div align="center">
   <h2 align>

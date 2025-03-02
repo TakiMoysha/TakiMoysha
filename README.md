@@ -2,6 +2,7 @@
 * [randy](https://github.com/TakiMoysha/randy) - ala conky;
 * [market-observer](https://github.com/TakiMoysha/market-observer) - backend as proxy for market;
 * [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) - load tests for backends;
+* [devlab.rs]() - inspired "Windows Dev Home" project;
 
 <div align="center">
   <h2 align>

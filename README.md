@@ -13,7 +13,7 @@
 | [market-observer](https://github.com/TakiMoysha/market-observer) | proxy-market,  | `ts, elysia` |
 | [devlab.rs]() | inspired "Windows Dev Home" project, management through the terminal | `rust` |
 | [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) | loading testing of backend, mostly python software | `python, rust, c` |
-| [vauth.rs]() | WebAuth Virtual Emulator for linux (wayland) | ... |
+| [vauth.rs]() | WebAuth - Authenticator emulator for linux (wayland) | ... |
 
 <div align="center">
   <h2 align>

@@ -8,9 +8,9 @@
 </div>
 
 | Name | Description | Stack |
-| --- | --- | --- |
+| - | - | :-: |
 | [randy](https://github.com/TakiMoysha/randy) | ala conky, fork project with rewriting on GTK4 and Linux (Wayland) | `rust, gtk-4` |
-| [market-observer](https://github.com/TakiMoysha/market-observer) | proxy-market | `ts, elysia` |
+| [market-observer](https://github.com/TakiMoysha/market-observer) | proxy-market,  | `ts, elysia` |
 | [devlab.rs]() | inspired "Windows Dev Home" project | `rust` |
 | [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) | loading testing of backend | `python, rust` |
 | [vauth.rs]() | WebAuth Virtual Emulator for linux (wayland) | ... |
@@ -23,7 +23,7 @@
 </div>
 
 | Name | Description | Stack |
-| --- | --- | --- |
+| - | - | :-: |
 | [TUI File Editor](https://github.com/TakiMoysha/tm-rust-book/tree/main/practice/tui-text-editor) | In-terminal file editor. Experience in building an application on Rust and interaction with the OS. | `rust` |
 | [Dependency Injection](https://github.com/TakiMoysha/tm-rust-book/tree/main/practice/dependency_injection) | Work with memory and pointers, understanding the difference between `impl`,` dyn` ... | `rust` |
 

@@ -9,10 +9,10 @@
 
 | Name | Description | Stack |
 | - | - | :-: |
-| [randy](https://github.com/TakiMoysha/randy) | ala conky, fork project with rewriting on GTK4 and Linux (Wayland) | `rust, gtk-4` |
+| [randy](https://github.com/TakiMoysha/randy)  | ala conky, fork project with rewriting on GTK4 and Linux (Wayland) | `rust, gtk-4` |
 | [market-observer](https://github.com/TakiMoysha/market-observer) | proxy-market,  | `ts, elysia` |
-| [devlab.rs]() | inspired "Windows Dev Home" project | `rust` |
-| [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) | loading testing of backend | `python, rust` |
+| [devlab.rs]() | inspired "Windows Dev Home" project, management through the terminal | `rust` |
+| [backend-benchmarks](https://github.com/TakiMoysha/backend-benchmarks) | loading testing of backend, mostly python software | `python, rust, c` |
 | [vauth.rs]() | WebAuth Virtual Emulator for linux (wayland) | ... |
 
 <div align="center">
